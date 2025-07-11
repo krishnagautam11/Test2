@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Listing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="home-page-wrapper">
+        <!-- Header -->
+        <div class="home-page-header">
+            <nav class="container-fluid d-flex align-items-center justify-content-around p-4 border-bottom border-gray">
+                <div class="header-logo">
+                    <h1><i class="bi-back"></i>Topic</h1>
+                </div>
+                <div class="nav nav-link d-flex gap-lg-5 me-5 header-navlinks">
+                    <a href="#section_1">HOME</a>
+                    <a href="#section_2">BROWSE TOPICS</a>
+                    <a href="#section_3">HOW IT WORKS</a>
+                    <a href="#section_4">FAQS</a>
+                    <a href="#section_5">CONTACT</a>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PAGES</a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item text-black" href="topics-listing.html">Topics Listing</a></li>
+                            <li><a class="dropdown-item text-black" href="contact-original.html">Contact Form</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="section_1">
+            <div class="container text-center">
+                <h1>Discover. Learn. Enjoy</h1>
+                <h3>platform for creatives around the world</h3>
+                <form class="search-form">
+                    <div class="input-group">
+                        <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="search" placeholder="Design, Code, Marketing, Finance...">
+                        <button class="search-btn">Search</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Featured Section -->
+        <section class="featured-section">
+            <div class="container feature-content">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="card-header">
+                                <h5>Web Design</h5>
+                                <span class="badge">14</span>
+                            </div>
+                            <p>When you search for free CSS templates, you will notice that TemplateMo is one of the
+                                best websites.</p>
+                            <img src="assets/images/undraw_Remote_design_team_re_urdx.png" alt="Web Design">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card highlight">
+                            <img src="assets/images/businesswoman-using-tablet-analysis.jpg" alt="Finance">
+                            <div class="card-content2">
+                                <h4>Finance</h4>
+                                <span class="badge">25</span>
+                                <p>Topic Listing Template includes homepage, listing page, detail page, and contact
+                                    page.</p>
+                                <a href="#" class="btn-learn">Learn More</a>
+                            </div>
+                            <div class="card-footer">
+                                <span>Share:</span>
+                                <div class="social-icons">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Browse Topics -->
+        <section class="browse-section" id="section_2">
+            <div class="container-fluid">
+                <h2 class="text-center">Browse Topics</h2>
+                <div class="category-tabs">
+                    <ul>
+                        <li class="active"><a href="#">Design</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">Education</a></li>
+                    </ul>
+                </div>
+
+                <div class="topic-grid">
+                    <!-- Design Tab Content -->
+                    <div class="tab-content active">
+                        <div class="row justify-content-center gap-5 ">
+                            <div class="col-md-3 ">
+                                <div class="topic-card shadow-lg">
+                                    <div class="card-header">
+                                        <h5>Web Design</h5>
+                                        <span class="badge">14</span>
+                                    </div>
+                                    <p>Topic Listing Template based on Bootstrap 5</p>
+                                    <img src="assets/images/undraw_Remote_design_team_re_urdx.png" alt="Web Design">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="topic-card shadow-lg">
+                                    <div class="card-header">
+                                        <h5>Graphic</h5>
+                                        <span class="badge">75</span>
+                                    </div>
+                                    <p>Lorem Ipsum dolor sit amet consectetur</p>
+                                    <img src="assets/images/undraw_Redesign_feedback_re_jvm0.png" alt="Graphic Design">
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="topic-card shadow-lg ">
+                                    <div class="card-header">
+                                        <h5>Logo Design</h5>
+                                        <span class="badge">100</span>
+                                    </div>
+                                    <p>Lorem Ipsum dolor sit amet consectetur</p>
+                                    <img src="assets/images/colleagues-working-cozy-office-medium-shot1.png"
+                                        alt="Logo Design">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+
+        <section class="timeline-section" id="section_3">
+            <div class="container">
+              
+                <div class="timeline">
+                    <div class="timeline-heading">
+                          <h2 class="text-center timeline-h2">How does it work?</h2>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon1">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="timeline-icon2">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                        <div class="timeline-icon3">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Search your favourite topic</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam?
+                            Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam
+                            numquam aliquam? Voluptas, accusamus omnis?</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Bookmark & Keep it for yourself</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus
+                            aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum
+                            similique odit labore. Doloremque, repudiandae?</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Read & Enjoy</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem
+                            assumenda similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae
+                            id? Quam culpa deleniti officiis autem?</p>
+                    </div>
+
+                    <div class=" text-center mt-5">
+                        <p class="text-white">Want to learn more? <button class="secondary-button"> Check out
+                                Youtube</button></p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- FAQs -->
+        <section class="faq-section" id="section_4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="w-75">Frequently Asked Questions</h2>
+                        <img src="assets/images/faq_graphic.jpg" width="420px" class="img-fluid" alt="FAQs">
+                    </div>
+                    <div class="col-md-6">
+                        <!-- <div class="accordion ">
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    What is Topic Listing?
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to
+                                            redistribute this template</strong> on any other template collection website
+                                        without our permission. Please contact TemplateMo for more detail. Thank you.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    How to find a topic?
+                                </button>
+                                <div class="accordion-content">
+                                    <p>You can search on Google with <strong>keywords</strong> such as templatemo
+                                        portfolio, templatemo one-page layouts, photography, digital marketing, etc.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    Does it need to paid?
+                                </button>
+                                <div class="accordion-content">
+                                    <p>You can modify any of this with custom CSS or overriding our default variables.
+                                        It's also worth noting that just about any HTML can go within the
+                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5>  What is Topic Listing?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to
+                                            redistribute this template </strong>
+                                        on any other template collection website without our permission. Please contact
+                                        TemplateMo for more detail. Thank you.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                     <h5 class="accordion-heading"> How to find a topic?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        You can search on Google with <strong>keywords</strong> such as templatemo
+                                        portfolio, templatemo one-page layouts, photography, digital marketing, etc.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                     <h5> Does it need to paid?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        You can modify any of this with custom CSS or overriding our default variables.
+                                        It's also worth noting that just about any HTML can go within the
+                                        <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section" id="section_5">
+            <div class="container">
+                <h2 class="text-center contact-h2">Get in touch</h2>
+                <div class="row ">
+                    <div class="col-md-5">
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.065641062665!2d-122.4230416990949!3d37.80335401520422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858127459fabad%3A0x808ba520e5e9edb7!2sFrancisco%20Park!5e1!3m2!1sen!2sth!4v1684340239744!5m2!1sen!2sth"
+                                width="107%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto mt-4 contact-text1">
+                        <h4>Head office</h4>
+                        <p class="contact-p">Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
+                        <hr>
+                        <p class="contact-p"><span>Phone:</span> <a href="tel:305-240-9671">305-240-9671</a></p>
+                        <p class="contact-p"><span>Email:</span> <a href="mailto:info@company.com">info@company.com</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 mb-3 mb-lg- mb-md-0 ms-auto mt-4 contact-text1">
+                        <h4>Dubai office</h4>
+                        <p class="contact-p2">Burj Park, Downtown Dubai, United Arab Emirates</p>
+                        <hr>
+                        <p class="contact-p"><span>Phone:</span> <a href="tel:110-220-3400">110-220-3400</a></p>
+                        <p class="contact-p"><span>Email:</span> <a href="mailto:info@company.com">info@company.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-logo">
+                            <h1><i class="bi-back"></i>Topic</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6>Resources</h6>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">How it works</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6>Information</h6>
+                        <p><a href="tel:305-240-9671">305-240-9671</a></p>
+                        <p><a href="mailto:info@company.com">info@company.com</a></p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                English
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">Thai</button></li>
+                                <li><button class="dropdown-item">Myanmar</button></li>
+                                <li><button class="dropdown-item">Arabic</button></li>
+                            </ul>
+                        </div>
+                        <p class="copyright">Copyright © 2048 Topic Listing Center. All rights reserved.<br>
+                           </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Add this before the closing </body> tag -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
